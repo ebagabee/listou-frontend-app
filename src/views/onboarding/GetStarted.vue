@@ -1,7 +1,12 @@
 <template>
-  <div class="p-4">
-    <h1 class="text-2xl font-bold mb-4">Página Inicial</h1>
-    <p class="">Esta é a página inicial do aplicativo.</p>
+  <div class="flex flex-col gap-1 justify-center items-center text-3xl p-10">
+    <span class="text-bold">Crie sua</span>
+    <span>Lista de Compras</span>
+
+    <span class="text-xl text-center mt-2"
+      >Com o <span class="font-semibold italic">Listou</span>, você pode criar e
+      organizar suas compras com <span>facilidade</span></span
+    >
   </div>
 </template>
 
