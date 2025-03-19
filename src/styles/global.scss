@@ -1,0 +1,28 @@
+@import './variables.scss';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', 'Roboto', sans-serif;
+}
+
+body {
+    font-size: 16px;
+    color: $text-dark;
+    background-origin: $white;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+    border-radius: $button-radius;
+    padding: 14px;
+    font-size: 16px;
+    font-weight: 500;
+    transition: all 0.2s ease;
+
+    &:active {
+        transform: scale(0.98);
+    }
+}
